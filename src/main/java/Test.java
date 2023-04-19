@@ -1,3 +1,5 @@
+import java.time.OffsetDateTime;
+
 public class Test {
     public static void main(String[] args) {
         Animal an1 = Animal.builder()
@@ -11,5 +13,8 @@ public class Test {
                 .build();
 
         System.out.println(an1);
+
+        System.out.println(OffsetDateTime.now().minusDays(50));
     }
+
 }
