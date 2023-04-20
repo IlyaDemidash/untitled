@@ -12,6 +12,11 @@ public class Test {
                 .id(2)
                 .build();
 
+        Animal an3 = Animal.builder()
+                .name("Cat2")
+                .id(2)
+                .build();
+
         System.out.println(an1);
 
         System.out.println(OffsetDateTime.now().minusDays(50));
